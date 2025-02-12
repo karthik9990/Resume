@@ -9,16 +9,55 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+        }
+        td {
+            background-color: #ffffff;
+        }
+        tr:nth-child(even) td {
+            background-color: #f2f2f2;
+        }
+        tr:hover td {
+            background-color: #e9ecef;
         }
         .container {
             margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
         }
-        .header {
-            text-align: center;
+        .header
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding: 20px;
             background-color: #007bff;
             color: white;
             border-radius: 5px;
+        }
+        .header img
+        {
+            border-radius: 50%;
+            margin-right: 20px; /* Adds space between image and text */
+        }
+        .header .text
+        {
+            text-align: left;
         }
         .section {
             margin-top: 20px;
@@ -33,13 +72,24 @@
 <div class="container">
     <div class="header">
         <img src="Images/Black and white-circle.png" alt="karthik tadakapalli profile picture" width="150" height="150">
-        <h1>Karthik Tadakapalli</h1>
-        <h3>Junior SharePoint Support Analyst</h3>
-        <p>Saskatoon, Saskatchewan, Canada</p>
-        <p>Email: <a href="mailto:karthik.tadakapalli@ehealthsask.ca" class="text-light">karthik.tadakapalli@ehealthsask.ca</a>
-            | Phone: 306-881-2241</p>
-        <p><a href="https://linkedin.com/in/karthik-tadakapalli-06951522a" class="text-light">LinkedIn Profile</a></p>
+        <div>
+            <h1>Karthik Tadakapalli</h1>
+            <h3>Junior SharePoint Support Analyst</h3>
+            <p>Saskatoon, Saskatchewan, Canada</p>
+            <p><img src="images/mail.png" alt="email Logo"
+                    style="width: 20px; height: auto; vertical-align: middle; margin-right: 5px;">Email: <a
+                    href="mailto:karthik.tadakapalli@ehealthsask.ca"
+                    class="text-light">karthik.tadakapalli@ehealthsask.ca</a></p>
+            <p><img src="images/phone.png" alt="phone Logo"
+                    style="width: 20px; height: auto; vertical-align: middle; margin-right: 10px;">Phone: 306-881-2241
+            </p>
+            <p><img src="images/linkedin.png" alt="linkedin Logo"
+                    style="width: 20px; height: auto; vertical-align: middle; margin-right: 10px;"><a
+                    href="https://linkedin.com/in/karthik-tadakapalli-06951522a" class="text-light">LinkedIn Profile</a>
+            </p>
+        </div>
     </div>
+
 
     <div class="section">
         <h3>Summary</h3>
@@ -276,27 +326,283 @@
                 communication platforms.
             </li>
         </ul>
+        <h5>IT Analyst (Oct 2019 – May 2022)</h5>
+        <p>Saskatchewan Health Authority, Humboldt, SK</p>
+        <ul>
+            <li>Supported and maintained SharePoint workflows to optimize collaboration and information sharing across
+                departments.
+            </li>
+            <li>Provided technical support and guidance to end-users on SharePoint-related issues, enhancing system
+                usability.
+            </li>
+            <li>Configured and customized SharePoint environments to meet user requirements and ensure efficient
+                operations.
+            </li>
+            <li>Managed and maintained several servers to ensure system stability and performance.</li>
+            <li>Collaborated with stakeholders to gather requirements and deliver effective SharePoint solutions.</li>
+            <li>Developed and maintained detailed technical documentation for workflows, configurations, and solution
+                architecture.
+            </li>
+            <li>Conducted application testing and troubleshooting to ensure high-quality and reliable system
+                performance.
+            </li>
+            <li>Coordinated project progress updates with senior developers to ensure timely project completion and
+                alignment with organizational goals.
+            </li>
+            <li>Identified and resolved process gaps, driving changes for operational efficiency in collaboration with
+                senior analysts and management.
+            </li>
+            <li>Supply, install, and maintain desktop computers, laptops, printers, imaging devices, and mobile
+                devices.
+            </li>
+            <li>Diagnose and resolve hardware and software issues across a range of devices, including workstations,
+                printers, and smart devices.
+            </li>
+            <li>Perform installation, configuration, and maintenance of PC hardware and peripherals, including networked
+                devices and printers.
+            </li>
+            <li>Use MS Configuration Manager (SCCM/SMS) for deploying software updates, managing hardware assets, and
+                maintaining software reliability.
+            </li>
+            <li>Install, update, and configure desktop productivity applications such as Microsoft Office Suite.</li>
+            <li>Manage browser configurations for Internet Explorer, Edge, and Chrome to ensure compatibility and
+                security.
+            </li>
+            <li>Monitor and maintain network infrastructure, including LAN, WAN, and wireless networks, to ensure stable
+                connectivity.
+            </li>
+            <li>Assist in the configuration and maintenance of network devices such as routers, switches, firewalls, and
+                access points.
+            </li>
+            <li>Perform first-level troubleshooting for network issues, diagnosing connectivity problems, and escalating
+                more complex issues to senior staff.
+            </li>
+            <li>Support the setup and configuration of secure VPN connections for remote users and assist with remote
+                access needs.
+            </li>
+            <li>Respond to critical incidents, providing prompt support and ensuring minimal disruption to network
+                operations.
+            </li>
+            <li>Assist in monitoring network security by identifying vulnerabilities and maintaining secure access
+                controls.
+            </li>
+            <li>Support the configuration of security devices, such as firewalls and intrusion detection systems
+                (IDS/IPS), under guidance.
+            </li>
+            <li>Follow organizational policies to maintain compliance, documenting actions and solutions for auditing
+                purposes.
+            </li>
+            <li>Conduct security audits and perform basic vulnerability assessments to support a secure IT
+                environment.
+            </li>
+            <li>Create and maintain documentation for hardware configurations, network setups, and troubleshooting
+                procedures.
+            </li>
+            <li>Keep accurate records of incidents, resolutions, and updates in ticketing systems (ServiceNow, SCSM,
+                USD).
+            </li>
+            <li>Assist in generating network performance and issue reports, providing valuable insights for management
+                analysis.
+            </li>
+            <li>Update network diagrams, asset inventories, and user documentation as necessary to reflect current
+                infrastructure.
+            </li>
+            <li>Provide direct technical support to end-users, addressing IT and network-related issues with clear
+                communication and guidance.
+            </li>
+            <li>Participate in team projects, working closely with senior analysts and IT staff to deploy new
+                technologies and improve network performance.
+            </li>
+            <li>Train and guide users on best practices for hardware, software, and network usage, ensuring smooth
+                operations.
+            </li>
+            <li>Support after-hours and on-call rotations to address urgent requests and ensure continuous service
+                availability.
+            </li>
+            <li>Build foundational skills in networking, including TCP/IP, DNS, DHCP, VLANs, VPNs, and
+                troubleshooting.
+            </li>
+            <li>Gain experience with network monitoring tools (e.g., PRTG, Nagios, Wireshark) to assist in diagnostics
+                and performance monitoring.
+            </li>
+            <li>Develop familiarity with network platforms like Cisco, Juniper, and related hardware for hands-on
+                experience.
+            </li>
+            <li>Stay updated on emerging technology trends, networking best practices, and participate in professional
+                development opportunities.
+            </li>
+            <li>Basic understanding of Microsoft enterprise technologies, including Active Directory, Exchange, and SQL
+                Server.
+            </li>
+            <li>Experience with virtualization technologies (e.g., VMware, Hyper-V) and remote desktop environments.
+            </li>
+            <li>Strong communication skills, capable of explaining technical concepts to non-technical users and
+                collaborating within a team.
+            </li>
+            <li>Configure and manage Cisco Unified Communications Manager (CUCM) and Cisco Unity Connection (CUCA) for
+                call routing, IP phone provisioning, and voicemail setup.
+            </li>
+            <li>Provide support for Cisco IP phones and VoIP devices, including installation, configuration,
+                troubleshooting, and call quality management.
+            </li>
+            <li>Administer voicemail systems, handle user requests, and ensure seamless integration with email and other
+                communication platforms.
+            </li>
+            <li>Oversaw Active Directory (AD) for over 10,000 users, managing permissions for network folder structures,
+                account creation, group audits, and user reactivations to ensure organizational integrity and security.
+            </li>
+            <li>Conducted comprehensive audits of AD permissions, groups, and file structures, generating detailed
+                reports for management that informed decision-making and enhanced compliance.
+            </li>
+            <li>Managed user accounts by performing tasks such as password resets, group membership administration, and
+                handling daily termination reports to maintain an accurate and efficient user database.
+            </li>
+            <li>Coordinated with various IT teams on AD-related tasks and deployment initiatives, ensuring alignment and
+                effective execution of projects.
+            </li>
+            <li>Provided swift resolutions for high-priority Practitioner Staff Affairs requests, minimizing disruptions
+                and maintaining service continuity.
+            </li>
+            <li>Troubleshot Exchange email issues, including the creation of shared mail accounts and adjustments to
+                access permissions, to ensure seamless communication.
+            </li>
+            <li>Employed third-party tools for auditing, troubleshooting, and monitoring AD and Exchange environments,
+                enhancing operational efficiency.
+            </li>
+            <li>Handled escalated tickets and followed up with relevant teams, ensuring timely resolutions and customer
+                satisfaction.
+            </li>
+            <li>Supplied, installed, and maintained desktop computers, laptops, printers, and mobile devices, ensuring
+                compliance with eHealth standards and optimal performance.
+            </li>
+            <li>Diagnosed and resolved issues across various operating systems, including Windows and macOS, as well as
+                software and smart devices, to support end-user productivity.
+            </li>
+            <li>Utilized ticketing software (ServiceNow, SCSM, USD) to track incidents and service requests, maintaining
+                clear documentation for future reference.
+            </li>
+            <li>Leveraged Microsoft System Center Configuration Manager (SCCM) for deploying software updates and
+                managing hardware assets efficiently.
+            </li>
+            <li>Troubleshot connectivity issues related to networked and local printers, ensuring reliable printing
+                services for users.
+            </li>
+            <li>Performed physical tasks, including moving and setting up computer systems and peripherals, while
+                adhering to safety protocols.
+            </li>
+            <li>Participated in after-hours standby rotation to provide critical support and maintain service
+                availability outside regular working hours.
+            </li>
+            <li>Followed ITIL/ITSM frameworks for managing incidents, changes, and service requests, ensuring systematic
+                and efficient operations.
+            </li>
+            <li>Delivered on-site technical support across various locations within the province, requiring reliable
+                transportation and a valid driver's license.
+            </li>
+            <li>Demonstrated expertise in a range of technologies, including Windows Server, Office 365, Azure, Active
+                Directory, DNS, DHCP, MS Exchange, SharePoint, and VMware, to provide comprehensive IT support.
+            </li>
+        </ul>
+    </div>
+    <div class="section">
+        <h3>Education</h3>
+        <ul>
+            <p>
+                <img src="images/lambton.png" alt="Lambton College Logo"
+                     style="width: 50px; height: auto; vertical-align: middle; margin-right: 10px;">
+                <strong>Lambton College</strong><br>
+                Information technology and web design, Computer/Information Technology Administration and Management<br>
+                Jan 2013 - Aug 2014
+            </p>
+            <p>
+                <img src="images/jntu.png" alt="jntu College Logo"
+                     style="width: 50px; height: auto; vertical-align: middle; margin-right: 10px;">
+                <strong>Jawaharlal Nehru Technological University</strong><br>
+                Bachelor of Technology in Computer Science<br>
+                Jun 2008 - Apr 2012
+            </p>
+        </ul>
+    </div>
+    <div class="section">
+        <h3>Technical Skills</h3>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+            <tr>
+                <th>Category</th>
+                <th>Skills</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Operating Systems</td>
+                <td>Windows Server, Linux/Unix, Windows, macOS, Arduino</td>
+            </tr>
+            <tr>
+                <td>Networking</td>
+                <td>Network Architecture and Protocols, Network Security, Cloud Services (AWS, Azure, Google Cloud)</td>
+            </tr>
+            <tr>
+                <td>Database Management</td>
+                <td>SQL, Oracle, MySQL</td>
+            </tr>
+            <tr>
+                <td>Hardware</td>
+                <td>Server Hardware, Storage Systems</td>
+            </tr>
+            <tr>
+                <td>Software</td>
+                <td>Microsoft Office 365 Suite and Power Platform</td>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>HTML, CSS, JavaScript, Python, Django, PowerShell, cmd</td>
+            </tr>
+            <tr>
+                <td>IT Service Management</td>
+                <td>ITIL Framework</td>
+            </tr>
+            <tr>
+                <td>Virtualization</td>
+                <td>VMware, Hyper-V, VirtualBox</td>
+            </tr>
+            <tr>
+                <td>IDE’s</td>
+                <td>Visual Studio, VS Code, PyCharm, Notepad++</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="section">
+        <h3>Certifications</h3>
+        <ul>
+            <li>Windows Server 2008 Active Directory, Configuring and Network Infrastructure</li>
+            <li>Microsoft Certified Desktop Support Technician</li>
+            <li>Microsoft Certified Professional</li>
+            <li>CompTIA Project+</li>
+
+        </ul>
+    </div>
+    <div class="section">
+        <h3>Additional Points</h3>
+        <ul>
+            <li>Monitored and maintained servers, enhancing system uptime and stability by implementing best practices
+                for performance monitoring.
+            </li>
+            <li>Strong analytical and problem-solving abilities.</li>
+            <li>Proven ability to work under pressure and meet deadlines.</li>
+            <li>Mentored new IT staff and interns, providing guidance and support to foster their professional growth.
+            </li>
+            <li>Ensured secure document access and version control through customized permissions.</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h3>References</h3>
+        <p> Will be Available upon request </p>
     </div>
 
 </div>
 
-<div class="section">
-    <h3>Education</h3>
-    <ul>
-        <li><strong>Lambton College</strong> - Information Technology and Web Design (2013 - 2014)</li>
-        <li><strong>Jawaharlal Nehru Technological University</strong> - BTech in Computer Science (2008 - 2012)
-        </li>
-    </ul>
-</div>
 
-<div class="section">
-    <h3>Certifications</h3>
-    <ul>
-        <li>Microsoft Certified Desktop Support Technician</li>
-        <li>Microsoft Certified Professional</li>
-        <li>CompTIA Project+</li>
-    </ul>
-</div>
 </div>
 </body>
 </html>
