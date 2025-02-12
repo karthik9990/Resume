@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cdbe3f3-66ab-484b-bb92-349467ffbcb0" name="Changes" comment="Resume is now fully finished">
+    <list default="true" id="8cdbe3f3-66ab-484b-bb92-349467ffbcb0" name="Changes" comment="changed some color pallette">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "karthik9990"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;karthik9990&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/karthik9990/Resume.git",
-    "accountId": "3890c7e3-eb78-4a03-96ac-b8c51eb4531f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/karthik9990/Resume.git&quot;,
+    &quot;accountId&quot;: &quot;3890c7e3-eb78-4a03-96ac-b8c51eb4531f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2svNgUSacLPS7A0uOXecAb4Bk9P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,7 +50,8 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ktadakapalli/Resume"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -106,13 +107,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739337330319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed some color pallette">
+      <option name="closed" value="true" />
+      <created>1739337867525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739337867525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Changes" />
     <MESSAGE value="Added few more to resume" />
     <MESSAGE value="Resume is now fully finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resume is now fully finished" />
+    <MESSAGE value="changed some color pallette" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed some color pallette" />
   </component>
 </project>
